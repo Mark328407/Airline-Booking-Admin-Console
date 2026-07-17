@@ -1,41 +1,52 @@
-# SkyRoute — Airline Booking Admin Console
+# Airline Booking — Admin Console
 
-A frontend-only operations dashboard prototype for an airline booking system. Built with React and Recharts, using deterministic seeded mock data so the dashboard renders consistent numbers on every load — no backend required.
+A frontend prototype of an airline admin dashboard for managing flights, bookings, and passenger data. Built to explore data-heavy admin UI patterns — tables, charts, and filtering — on top of a modern React stack.
 
-**Live demo:** _add your Vercel URL here once deployed_
+**Live demo:** [airline-booking-admin-console.vercel.app](https://airline-booking-admin-console.vercel.app/)
+
+## Overview
+
+This project simulates the back-office side of an airline booking system — the kind of console staff would use to monitor flights, track bookings, and review key metrics at a glance. It focuses purely on the frontend experience: layout, data visualization, and interaction design for an admin-style dashboard.
 
 ## Features
 
-- **Dashboard** — KPI cards (total bookings, confirmed revenue, average fare, cancellation rate), a 14-day booking trend line chart, a booking-status pie chart, and a revenue-by-route bar chart
-- **Flights** — filterable flight schedule table with live status badges (On time / Boarding / Delayed / Departed)
-- **Bookings** — searchable, filterable bookings table (by passenger name or PNR) with per-status badges
-
-## Design
-
-Navy/amber "boarding pass" visual language shared with the companion SkyRoute booking prototype: Sora for display type, Inter for body text, IBM Plex Mono for flight codes, PNRs, and data. The sidebar's dashed edge echoes a perforated ticket stub.
+- 📊 Dashboard with charts summarizing bookings and flight activity
+- ✈️ Flight and booking management views
+- 🔍 Filtering and search across tabular data
+- 📱 Responsive layout for desktop and tablet screens
+- 🎨 Clean, modern admin UI styling
 
 ## Tech Stack
 
-- React 18 + Vite
-- Recharts for all data visualization
-- Plain inline styles (no CSS framework) — a self-contained single component
+- **React** — component-based UI
+- **Charts** — data visualization for dashboard metrics
+- **Vercel** — deployment and hosting
 
 ## Getting Started
 
+Clone the repo and install dependencies:
+
 ```bash
+git clone https://github.com/Mark328407/Airline-Booking-Admin-Console.git
+cd Airline-Booking-Admin-Console
 npm install
 npm run dev
 ```
 
-### Build
+The app will be available at `http://localhost:5173` (or the port shown in your terminal).
 
-```bash
-npm run build
-npm run preview
-```
+## Deployment
+
+This project is deployed on **Vercel**:
+👉 [https://airline-booking-admin-console.vercel.app/](https://airline-booking-admin-console.vercel.app/)
 
 ## Author
 
-**Mark Anthony Estrecho** — [Portfolio](https://my-portfolio-cilr.vercel.app/) · [GitHub](https://github.com/Mark328407)
-# Airline-Booking-Admin-Console
-# Airline-Booking-Admin-Console
+**Mark Anthony Estrecho**
+- Portfolio: [my-portfolio-cilr.vercel.app](https://my-portfolio-cilr.vercel.app/)
+- GitHub: [@Mark328407](https://github.com/Mark328407)
+- LinkedIn: [Mark Anthony Estrecho](https://www.linkedin.com/in/mark-anthony-estrecho-ba0731225)
+
+## License
+
+This project is open source and available for learning and portfolio purposes.
